@@ -1,0 +1,33 @@
+:root {
+  /* there is your variabels */
+}
+* {
+  /* font-family: there is your fonts; */
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+button {
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+@media screen and (max-width: 1440px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 800px) {
+}
