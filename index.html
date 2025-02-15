@@ -9,23 +9,32 @@
       sizes="32x32"
       href="src/images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles/config.css" />
     <link rel="stylesheet" href="src/styles/style.css" />
     <title>Advice generator app</title>
   </head>
   <body>
     <div class="advice">
-      <div class="advice-container">
-        <h3 class="title">Lorem, ipsum dolor.</h3>
-        <p class="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ad.
-        </p>
-        <button class="next-advice">
-          <img src="src/images/icon-dice.svg" alt="" />
-        </button>
-      </div>
+      <h3 class="title">advice #</h3>
+      <p class="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, ad.
+      </p>
+      <img
+        src="src/images/pattern-divider-desktop.svg"
+        id="first-line"
+        alt=""
+      />
+      <button class="next-advice">
+        <img src="src/images/icon-dice.svg" alt="" />
+      </button>
     </div>
-    <div class="attribution">
+    <div class="attribution" style="text-align: center">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
