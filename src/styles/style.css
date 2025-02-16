@@ -37,6 +37,10 @@ body {
   border-radius: 50%;
   margin: 0 auto;
   transform: translateY(30px);
+  transition: box-shadow 200ms ease-in-out;
+}
+.next-advice:hover {
+  box-shadow: 0 0 20px var(--neon-green);
 }
 .next-advice img {
   width: 50%;
@@ -44,4 +48,5 @@ body {
 }
 .attribution {
   color: var(--light-cyan);
+  font-weight: 600;
 }
