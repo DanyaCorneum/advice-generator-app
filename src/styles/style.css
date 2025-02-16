@@ -1,7 +1,6 @@
 body {
   background-color: var(--dark-blue);
 }
-
 .advice {
   background-color: var(--dark-grayish-blue);
   text-align: center;
@@ -13,6 +12,7 @@ body {
   border-radius: 15px;
   padding: 30px;
   padding-bottom: 0;
+  box-shadow: 10px 10px 20px var(--dark-blue-shadow);
 }
 .title {
   color: var(--neon-green);
@@ -47,6 +47,11 @@ body {
   height: 45%;
 }
 .attribution {
+  margin-top: 1.5rem;
   color: var(--light-cyan);
   font-weight: 600;
+}
+
+.attribution a {
+  color: var(--neon-green);
 }
