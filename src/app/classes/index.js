@@ -1,1 +1,1 @@
-import { adviceWindow } from "./adviceWindow";
+export { AdviceBlock } from "./adviceWindow";
