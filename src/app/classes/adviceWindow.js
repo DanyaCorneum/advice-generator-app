@@ -6,7 +6,6 @@ export class AdviceBlock {
   async getData(link) {
     const response = await fetch(link);
     const data = await response.json();
-    console.log(data);
     return data;
   }
 
