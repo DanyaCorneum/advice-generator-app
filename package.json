@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/DanyaCorneum/IP-Address-Tracker#readme",
   "devDependencies": {
-    "parcel": "^2.13.3",
+    "parcel-bundler": "^1.12.5",
     "vercel": "^41.1.4"
   },
   "dependencies": {
